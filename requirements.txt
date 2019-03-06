@@ -1,9 +1,7 @@
 #!/bin/bash
-apt-get install python-pip
-apt-git install python-flask
+apt -y install python3-flask
 
 # download file from github 
-
 git clone https://github.com/Declanryan/flask.git
 cd flask
 
